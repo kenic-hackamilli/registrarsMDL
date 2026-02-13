@@ -1,0 +1,27 @@
+{
+  "name": "registrarsmdl",
+  "version": "1.0.0",
+  "description": "Registrar module to receive and process domain registration requests",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "registrar",
+    "domain",
+    "api",
+    "sms"
+  ],
+  "author": "Daniel France",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.18.0",
+    "uuid": "^13.0.0"
+  }
+}
